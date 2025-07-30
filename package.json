@@ -26,7 +26,16 @@
     "test:genkit-tools-cli": "cd genkit-tools/cli && pnpm i && pnpm test",
     "test:genkit-tools-common": "cd genkit-tools/common && pnpm i && pnpm test",
     "test:e2e-local": "pnpm build && pnpm pack:all && cd tests && pnpm install && pnpm test",
-    "test:e2e": "cd tests && pnpm install && pnpm test"
+    "test:e2e": "cd tests && pnpm install && pnpm test",
+    "debug:build": "node scripts/debug-build.js",
+    "debug:build:js": "node scripts/debug-build.js js",
+    "debug:build:cli": "node scripts/debug-build.js cli",
+    "debug:build:all": "node scripts/debug-build.js all",
+    "debug:watch": "node scripts/debug-build.js watch",
+    "debug:watch:core": "node scripts/debug-build.js watch core",
+    "debug:watch:cli": "node scripts/debug-build.js watch cli",
+    "debug:test": "node scripts/debug-build.js test",
+    "debug:clean": "node scripts/debug-build.js clean"
   },
   "pre-commit": [
     "format:check"

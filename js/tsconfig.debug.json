@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": true,
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "noEmit": false,
+    "outDir": "./lib-debug",
+    "incremental": true,
+    "tsBuildInfoFile": "./lib-debug/.tsbuildinfo"
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib/**/*",
+    "lib-debug/**/*"
+  ]
+}
