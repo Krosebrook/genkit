@@ -20,7 +20,7 @@
     "@genkit-ai/express": "^1.0.4",
     "express": "^4.21.0",
     "partial-json": "^0.1.7",
-    "zod": "^3.23.8"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "genkit-cli": "^1.0.4",
