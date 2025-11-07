@@ -25,7 +25,7 @@
     "genkit": "workspace:*",
     "genkitx-langchain": "workspace:*",
     "genkitx-ollama": "workspace:*",
-    "langchain": "^0.1.36",
+    "langchain": "^0.2.0",
     "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
